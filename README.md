@@ -67,3 +67,10 @@ Example file `main_Custom_Character_Example.py` will produce an animation then r
 <img src="https://user-images.githubusercontent.com/18537705/155820648-2fa684ba-9e60-4b55-b46b-30901257c3ee.png" width="300">
 </p>.
 
+Here is another more practical example of using custom characters to show a bar-chart for multiple temperature and humidity probes.
+
+<p align=center>
+<img src="https://user-images.githubusercontent.com/18537705/155855040-8c8a653a-7ca1-4d06-87c7-0f76e72a5ecd.png" width="300">
+</p>.
+
+
