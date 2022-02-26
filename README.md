@@ -32,9 +32,12 @@ sda_pin = 27 # write your own pin number
 lcd = LCD(SoftI2C(scl=Pin(scl_pin), sda=Pin(sda_pin), freq=100000))
 lcd.puts("Hello, World!")
 ```
-  ![image](https://user-images.githubusercontent.com/18537705/155820147-1fcdcd3e-2edc-4942-b9d4-e727b0dae8e8.png)
+<p align=center>
+<img src="https://user-images.githubusercontent.com/18537705/155820147-1fcdcd3e-2edc-4942-b9d4-e727b0dae8e8.png" width="300">
+</p>
 
 `lcd.puts("Hello, World!",1)` will put the text in the second line.
+
 `lcd.puts("Hello, World!",2,4)` will put the text in the third line, starts from the fifth column.
 
 ### Custom character
@@ -60,5 +63,7 @@ Once created, rendering custom characters requires the same time as any other st
 
 Example file `main_Custom_Character_Example.py` will produce an animation then render the following screen:
 
-![image](https://user-images.githubusercontent.com/18537705/155820648-2fa684ba-9e60-4b55-b46b-30901257c3ee.png)
+<p align=center>
+<img src="https://user-images.githubusercontent.com/18537705/155820648-2fa684ba-9e60-4b55-b46b-30901257c3ee.png" width="300">
+</p>.
 
