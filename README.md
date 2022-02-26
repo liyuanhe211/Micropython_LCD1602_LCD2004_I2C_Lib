@@ -67,7 +67,7 @@ Example file `main_Custom_Character_Example.py` will produce an animation then r
 <img src="https://user-images.githubusercontent.com/18537705/155820648-2fa684ba-9e60-4b55-b46b-30901257c3ee.png" width="300">
 </p>.
 
-Here is another more practical example of using custom characters to show a bar-chart for multiple temperature and humidity probes.
+Here is another more practical example of using custom characters to show a bar-chart for multiple temperature and humidity probes on a LCD2004 screen.
 
 <p align=center>
 <img src="https://user-images.githubusercontent.com/18537705/155855075-88fdf70e-0384-4318-a08b-0ea94824b8ea.png" width="300">
