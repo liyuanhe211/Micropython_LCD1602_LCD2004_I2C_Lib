@@ -55,7 +55,7 @@ The position can only be between 0 and 7 (you can only create 8 custom character
 
 Once created, rendering custom characters requires the same time as any other standard ASCII character.
 
-Example file `main_Custom_Character_Example.py` will produce an animation then render the following screen.
+Example file `main_Custom_Character_Example.py` will produce an animation then render the following screen:
 
 ![image](https://user-images.githubusercontent.com/18537705/155820648-2fa684ba-9e60-4b55-b46b-30901257c3ee.png)
 
