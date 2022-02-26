@@ -34,6 +34,9 @@ lcd.puts("Hello, World!")
 ```
   ![image](https://user-images.githubusercontent.com/18537705/155820147-1fcdcd3e-2edc-4942-b9d4-e727b0dae8e8.png)
 
+`lcd.puts("Hello, World!",1)` will put the text in the second line.
+`lcd.puts("Hello, World!",2,4)` will put the text in the third line, starts from the fifth column.
+
 ### Custom character
 A custom character is defined with a 5×8 binary matrix, for example:
 ```
