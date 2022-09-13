@@ -5,10 +5,11 @@ This is a micropython library for using LCD1602 or LCD2004 screen with PCF8574 I
 ## Usage
 ### Hardware connection
  * Connect your micropython device as follow (my tests uses WEMOS LOLIN32 Lite):
-    * I2C chip GND - ESP32 GND
-    * I2C chip VCC - ESP32 +5V
-    * I2C chip SCL - ESP32 GPIO pin 26 (pick your own pin, then modify the GPIO pin number in the code)
-    * I2C chip SDA - ESP32 GPIO pin 27 (pick your own pin, then modify the GPIO pin number in the code)
+    * PCF8574 I2C chip GND - ESP32 GND
+    * PCF8574 I2C chip VCC - ESP32 +5V
+    * PCF8574 I2C chip SCL - ESP32 GPIO pin 26 (pick your own pin, then modify the GPIO pin number in the code)
+    * PCF8574 I2C chip SDA - ESP32 GPIO pin 27 (pick your own pin, then modify the GPIO pin number in the code)
+    * If your PCF8574 and LCD scrren comes separately, solder the PCF8574 I2C chip to the screen per the manual.
 
  * Power-up your ESP32 board, adjust the contrast pot on the I2C chip until you see a line of solid blocks and an empty line.
 
