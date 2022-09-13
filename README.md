@@ -58,7 +58,7 @@ Then created with:
 ```
 lcd.create_charactor(position,custom_char)
 ```
-The position can only be between 0 and 7 (you can only create 8 custom characters). The new characters are treated with normal ASCII of 0x00~0x07. For example, if a custom character is created by calling `lcd.create_charactor(5,custom_char)`, a normal python string containing `chr(5)` will be rendered with the character you just defined in position 5.
+The position can only be between 0 and 7 (you can only create 8 custom characters). The new characters are treated as normal ASCII of 0x00~0x07. For example, if a custom character is created by calling `lcd.create_charactor(5,custom_char)`, a normal python string containing `chr(5)` will be rendered with the character you just defined in position 5.
 
 Once created, rendering custom characters requires the same time as any other standard ASCII character.
 
